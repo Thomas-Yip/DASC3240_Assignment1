@@ -80,6 +80,9 @@ library(tidyverse)
 ed1_df <- read.csv('data/Abbas_2019_TableS4_ed1.csv', row.names = 1)
 ed2_df <- read.csv('data/Abbas_2019_TableS4_ed2.csv', row.names = 1)
 
+# check if the row names of ed1_df match the column names of ed2_df (result: TRUE)
+all(rownames(ed1_df) == colnames(ed2_df))
+
 # age median in each forest plot
 age_median <- ed1_df[['AGE_MEDIAN']]
 
