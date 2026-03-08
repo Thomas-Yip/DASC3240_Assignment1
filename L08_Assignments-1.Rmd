@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
 
 # 1. Student ID and Name
 
-## [Student ID]{style="color:red"}: 20957364
+## [Student ID]{style="color:red"}: 
 
 ## [Name]{style="color:red"}: YIP Chi Ho
 
